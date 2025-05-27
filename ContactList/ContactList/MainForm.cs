@@ -26,5 +26,14 @@ namespace Kiemtras3cnpm
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddContactForm addContactForm = new AddContactForm();
+
+            // Hiển thị form dưới dạng dialog (modal)
+            addContactForm.ShowDialog();
+
+        }
     }
 }
